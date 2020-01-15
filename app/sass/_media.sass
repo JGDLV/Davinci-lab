@@ -1,0 +1,352 @@
+@media (max-width: 1200px)
+  .main-header-middle__inner
+    justify-content: center
+
+    > *
+      margin: 5px 15px !important
+
+  .tagline
+    order: 4
+    text-align: center
+    width: 100%
+
+  .main-menu
+    position: relative
+
+    &-items
+      justify-content: center
+
+    &__item
+      padding: 0 15px
+      flex-grow: 0
+
+  .intro
+    padding: 30px 0
+
+    &__text-part
+      width: 100%
+      margin-bottom: 30px
+
+    &__header
+      text-align: center
+
+    &__subheader
+      max-width: 520px
+      margin: 40px auto 50px
+
+    &-list
+      max-width: 520px
+      margin: auto
+
+      &__item
+
+        &::before
+          top: 0
+
+    &__image-part
+      position: static
+      margin: auto
+
+    &__image
+      width: 300px
+
+  h1, h2
+    font-size: 30px !important
+    line-height: 1.2 !important
+    letter-spacing: 0 !important
+    margin-bottom: 30px !important
+
+  .about
+    padding: 30px 0
+
+  .about-items .slick-arrow.slick-prev
+    left: 10px
+
+  .about-items .slick-arrow.slick-next
+    right: 10px
+
+  .order
+    padding: 30px 0
+
+    &__image-part
+      position: static
+
+    &__image
+      width: 280px
+
+    &__text-part
+      width: calc(100% - 310px)
+
+  .composition
+    padding: 30px 0
+
+    &__item
+
+      &-image-part
+        text-align: center
+
+      &-image-part, &-text-part
+        width: 100%
+
+    &__text-big
+      margin-bottom: 10px
+
+  .not-contains
+    padding: 30px 0
+
+  .production
+    padding: 30px 0
+
+    &__left
+      margin: 0 auto 30px
+
+    &__right
+      width: 100%
+
+  .team
+    padding: 30px 0
+
+    .container
+      margin: 0
+
+  .buy
+    padding: 30px 0
+
+  .reviews
+    padding: 30px 0
+
+  .reviews-items .slick-arrow
+    top: 0
+
+    &.slick-prev
+      left: 30px
+
+    &.slick-next
+      right: 30px
+
+  .payment
+    padding: 30px 0
+
+    &__item
+      width: calc(50% - 15px)
+      margin: 0
+
+  .order2
+    padding: 30px 0
+
+  .footer-menu
+    width: 100%
+
+    &-items
+      max-width: 100%
+      justify-content: center
+      padding: 15px 0
+
+    &__item
+      width: auto
+      padding: 0 15px
+
+  .main-footer-top__inner
+    justify-content: center
+    align-items: center
+
+    > *
+      margin: 5px 15px !important
+
+// 1200px
+
+@media (max-width: 1100px)
+  .not-contains__text br
+    display: none
+
+// 1100px
+
+@media (max-width: 1000px)
+  .order-form
+    justify-content: center
+
+    > *
+      margin: 0 15px
+      max-width: 100%
+
+// 1000px
+
+@media (max-width: 900px)
+  .main-menu
+    padding: 10px 0
+
+    &-items
+      display: none
+      position: absolute
+      top: 100%
+      left: -15px
+      right: -15px
+      background: $red-bright
+      width: calc(100% + 30px)
+      padding: 10px 0
+      z-index: 20
+
+    &__item
+      padding: 0
+
+    &__link
+      line-height: 40px
+
+      &:hover
+        background: $brown
+
+    &__hover
+      display: none !important
+
+  .menu-toggle
+    display: flex
+    margin: 0 0 0 auto
+    border: 0
+
+  .intro-list__item
+    font-size: 20px
+
+  .not-contains__item
+    width: calc(50% - 15px)
+
+  .payment__item br
+    display: none
+
+// 900px
+
+@media (max-width: 800px)
+  .reviews__item-text
+    min-height: 0
+
+// 800px
+
+@media (max-width: 768px)
+  body
+    font-size: 16px
+
+  br
+    display: none
+
+  .about__half
+    width: 100%
+    margin-bottom: 30px
+
+    & + &
+      margin-bottom: 0
+
+    &-header
+      margin: 30px 0
+
+// 768px
+
+@media (max-width: 750px)
+  .order__image-part
+    margin: 0 auto 30px
+
+  .order__text-part
+    width: 100%
+
+  .order__header, .order__subheader
+    text-align: center
+
+  .payment__item
+    width: 100%
+    margin-bottom: 30px
+
+    &:last-child
+      margin-bottom: 0
+
+// 750px
+
+@media (max-width: 640px)
+  .order2-form
+    padding: 30px
+
+    &__submit
+      margin: 30px auto 0
+
+  .tagline
+    padding-top: 15px
+
+// 640px
+
+@media (max-width: 576px)
+  h1, h2
+    font-size: 24px !important
+
+  *[class*="__subheader"]
+    font-size: 20px !important
+  
+  .btn
+    font-size: 20px !important
+    height: 50px
+    line-height: 50px
+
+  .intro-list__item
+    font-size: 18px
+    margin-bottom: 20px
+
+  .intro__image
+    width: 300px
+
+  .composition__item
+    width: 100%
+
+  .not-contains__item
+    width: 100%
+
+  .production__left
+    width: 100%
+
+  .production-gallery__link
+    width: 100%
+    border: 0 !important
+    border-bottom: 2px solid $brown !important
+
+    &:last-child, &:only-child
+      border-bottom: 0 !important
+
+  .team__item
+    width: 100%
+    margin-bottom: 30px
+
+    &:last-child
+      margin-bottom: 0
+
+// 576px
+
+@media (max-width: 450px)
+  .main-header-middle__inner > *
+    margin: 5px 0 !important
+
+  .contacts
+    width: 100%
+    text-align: center
+
+  .social
+    margin-bottom: 15px !important
+
+  .social-items
+    justify-content: center
+
+// 450px
+
+@media (max-width: 400px)
+  .intro__subheader
+    padding-left: 0
+    padding-top: 101px
+    text-align: center
+    margin-bottom: 30px
+
+    &::before
+      top: 0
+      left: 50%
+      transform: translateX(-50%)
+
+  .order2-form__part_name, .order2-form__part_phone
+    width: 100%
+
+  .not-contains__item
+    font-size: 16px
+
+// 400px
